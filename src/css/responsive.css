@@ -18,6 +18,12 @@
         
         
     }
+
+    body {
+        background-image: url("../img/background.jpg");
+        background-size: 70%;
+        background-repeat: repeat;
+      }
     .video {
         position: absolute;
         left: 12%;
