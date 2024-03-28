@@ -1,0 +1,58 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-size: 14%;
+  background-repeat: repeat;
+}
+
+.video {
+  width: 40%;
+  position: absolute;
+  display: flex;
+  z-index: -1;
+  top: 2%;
+  left: 52%;
+}
+
+#logo {
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.links {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  display: flex;
+  max-width: 45%;
+  justify-content: space-between;
+  /*flex-direction: column;*/
+}
+
+#horario,
+#data,
+#local {
+  height: 80%;
+  display: flex;
+
+  justify-content: space-between;
+  max-width: 500%;
+}
+
+#frase {
+  width: 45%;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  display: flex;
+}
+
+#patrulha {
+  width: 25%;
+  position: absolute;
+
+  display: flex;
+  left: 12%;
+  z-index: -1;
+}
